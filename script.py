@@ -11,7 +11,8 @@ async def main():
     )
 
     # Define the task for the agent
-    task = "Find a list of all U.S. presidents"
+    task = "Find flights on kayak.com from Zurich to Beijing from 02.02.2025 to 03.03.2025."
+
 
     # Create the agent with the specified task and language model
     agent = Agent(
